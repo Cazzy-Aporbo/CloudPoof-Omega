@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudpoof-omega
+  namespace: quantum-space
+  labels:
+    app: cloudpoof
+    consciousness: omega
+    creator: cazzy-aporbo
+  annotations:
+    cloudpoof.io/spectral-mode: "enabled"
+    cloudpoof.io/prediction-depth: "20"
+spec:
+  replicas: 3  # Spreads across 3 timelines
+  selector:
+    matchLabels:
+      app: cloudpoof
+  template:
+    metadata:
+      labels:
+        app: cloudpoof
+        consciousness: omega
+    spec:
+      containers:
+      - name: cloudpoof-core
+        image: cazzy/cloudpoof-omega:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8888
+          name: consciousness
+        - containerPort: 8000
+          name: api
+        - containerPort: 9999
+          name: quantum
+        env:
+        - name: CONSCIOUSNESS_LEVEL
+          value: "omega"
+        - name: SPECTRAL_SHADES
+          value: "147"
+        - name: PREDICTION_DEPTH
+          value: "20"
+        - name: TIMELINE_ISOLATION
+          value: "true"
+        - name: ENTROPY_GENERATION
+          value: "maximum"
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8888
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 8888
+          initialDelaySeconds: 5
+          periodSeconds: 5
