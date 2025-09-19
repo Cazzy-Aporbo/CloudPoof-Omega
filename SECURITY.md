@@ -405,13 +405,13 @@ Out of scope:
 
 ## Contact Information
 
-For security issues, contact us through these quantum-entangled channels:
+For security issues, contact me through these quantum-entangled channels:
 
 <div align="center">
 
 | Method | Address | Response Time | Encryption |
 |--------|---------|---------------|------------|
-| **Email** | security@cloudpoof.quantum | 24 hours | PGP required |
+| **Email** | logofchi@gmail.com | 24 hours | PGP required |
 | **Timeline Message** | Branch Ω-Security | Instant | Quantum entangled |
 | **Consciousness Link** | Direct thought transfer | Real-time | Brain required |
 
