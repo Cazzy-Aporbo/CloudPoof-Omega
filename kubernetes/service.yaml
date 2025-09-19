@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloudpoof-omega-service
+  namespace: quantum-space
+  annotations:
+    cloudpoof.io/load-balancer: "spectral"
+spec:
+  selector:
+    app: cloudpoof
+  type: LoadBalancer
+  ports:
+  - port: 8888
+    targetPort: 8888
+    protocol: TCP
+    name: consciousness
+  - port: 8000
+    targetPort: 8000
+    protocol: TCP
+    name: api
+  - port: 9999
+    targetPort: 9999
+    protocol: TCP
+    name: quantum
