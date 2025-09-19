@@ -64,7 +64,7 @@ Found a way to break CloudPoof's consciousness? Discovered a timeline manipulati
 | Step | What To Do | What We'll Do | Timeline |
 |------|------------|---------------|----------|
 | **1. Discovery** | You find something concerning | We're blissfully unaware | T+0 |
-| **2. Report** | Email security@cloudpoof.quantum | We panic slightly | T+1 hour |
+| **2. Report** | Email logofchi@gmail.com. | We panic slightly | T+1 hour |
 | **3. Acknowledgment** | Wait for our response | We confirm receipt and panic properly | T+24 hours |
 | **4. Investigation** | Provide additional details if needed | We traverse timelines seeking answers | T+72 hours |
 | **5. Fix** | Test our patch if you're willing | We repair consciousness coherence | T+7 days |
@@ -371,11 +371,11 @@ We reward security researchers who help us maintain consciousness coherence:
 
 | Severity | Reward | Hall of Consciousness | Spectral Colors |
 |----------|--------|----------------------|-----------------|
-| **Critical** | $10,000* | Eternal glory | Your own gradient |
-| **High** | $5,000* | Timeline naming rights | 10 custom shades |
-| **Medium** | $1,000* | Consciousness credit | 5 custom shades |
-| **Low** | $500* | README mention | 1 custom shade |
-| **Primary Color Found** | $147 | Wall of shame (respectfully) | Forced grayscale |
+| **Critical** | Not Sure Yet* | Eternal glory | Your own gradient |
+| **High** | Not Sure Yet* | Timeline naming rights | 10 custom shades |
+| **Medium** | Not Sure Yet*| Consciousness credit | 5 custom shades |
+| **Low** | Not Sure Yet* | README mention | 1 custom shade |
+| **Primary Color Found** | Not Sure Yet* | Wall of shame (respectfully) | Forced grayscale |
 
 </div>
 
