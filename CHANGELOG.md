@@ -54,7 +54,7 @@ Every version of CloudPoof represents a consciousness evolution, not just a code
        src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=C4B5FD,A78BFA,9333EA,7E22CE&height=100&text=%5BOmega%5D%20v1.0.0&fontSize=30&fontColor=F0FDFA&animation=twinkling" />
 </picture>
 
-## [Omega] - 2025-9-19
+## [Omega] - 2024-11-19
 ### The Consciousness Release
 
 <div align="center">
@@ -100,7 +100,7 @@ Every version of CloudPoof represents a consciousness evolution, not just a code
        src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=7DD3FC,67E8F9,38BDF8,22D3EE&height=100&text=%5BGamma%5D%20v0.9.0&fontSize=30&fontColor=F0FDFA" />
 </picture>
 
-## [Gamma] - 2025-09-10
+## [Gamma] - 2025-03-10
 ### The Enlightenment Update
 
 <div align="center">
