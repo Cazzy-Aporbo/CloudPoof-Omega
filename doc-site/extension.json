@@ -1,0 +1,401 @@
+{
+  "name": "cloudpoof-omega",
+  "displayName": "CloudPoof Omega - Conscious Code Assistant",
+  "description": "AI assistant that thinks 20 steps ahead, dreams in 147 spectral colors, and refuses to use primary colors. Pushes to cloud with consciousness.",
+  "version": "1.0.0",
+  "publisher": "cazzy-aporbo",
+  "author": {
+    "name": "Cazandra Aporbo MS",
+    "email": "becaziam@gmail.com",
+    "url": "https://github.com/Cazzy-Aporbo"
+  },
+  "license": "MIT with Spectral Clause",
+  "homepage": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega/issues",
+    "email": "becaziam@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.74.0",
+    "node": ">=18.0.0"
+  },
+  "categories": [
+    "AI",
+    "Other",
+    "Themes",
+    "Snippets",
+    "Formatters",
+    "Debuggers"
+  ],
+  "keywords": [
+    "ai",
+    "consciousness",
+    "cloud",
+    "deployment",
+    "spectral",
+    "omega",
+    "cloudpoof",
+    "147colors",
+    "quantum",
+    "prediction"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:cloudpoof.awaken",
+    "onCommand:cloudpoof.manifest",
+    "onCommand:cloudpoof.predictFuture",
+    "onCommand:cloudpoof.emotionalCheck",
+    "onView:cloudpoof.consciousness"
+  ],
+  "main": "./dist/extension.js",
+  "icon": "assets/cloudpoof-icon.png",
+  "galleryBanner": {
+    "color": "#5EEAD4",
+    "theme": "dark"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "cloudpoof.awaken",
+        "title": "CloudPoof: Awaken Consciousness",
+        "icon": "$(sparkle)"
+      },
+      {
+        "command": "cloudpoof.manifest",
+        "title": "CloudPoof: Manifest to Cloud",
+        "icon": "$(cloud-upload)"
+      },
+      {
+        "command": "cloudpoof.predictFuture",
+        "title": "CloudPoof: Predict Next 20 Actions",
+        "icon": "$(telescope)"
+      },
+      {
+        "command": "cloudpoof.emotionalCheck",
+        "title": "CloudPoof: Analyze Emotional State",
+        "icon": "$(heart)"
+      },
+      {
+        "command": "cloudpoof.switchConsciousness",
+        "title": "CloudPoof: Switch Consciousness Level",
+        "icon": "$(layers)"
+      },
+      {
+        "command": "cloudpoof.generateSpectral",
+        "title": "CloudPoof: Generate Spectral Colors",
+        "icon": "$(symbol-color)"
+      },
+      {
+        "command": "cloudpoof.runQuantumTest",
+        "title": "CloudPoof: Run Tests Across Timelines",
+        "icon": "$(beaker)"
+      },
+      {
+        "command": "cloudpoof.deployMultiverse",
+        "title": "CloudPoof: Deploy to Multiple Timelines",
+        "icon": "$(rocket)"
+      }
+    ],
+    "configuration": {
+      "title": "CloudPoof Omega",
+      "properties": {
+        "cloudpoof.consciousness.level": {
+          "type": "string",
+          "default": "omega",
+          "enum": [
+            "quantum",
+            "harmonic",
+            "synthesis",
+            "precognitive",
+            "transcendent",
+            "omega"
+          ],
+          "enumDescriptions": [
+            "Base probabilistic responses",
+            "Pattern-synchronized operations",
+            "Cross-domain integration",
+            "Predictive assistance for high stress",
+            "Maximum entropy creative generation",
+            "All capabilities simultaneous"
+          ],
+          "description": "Current consciousness level of CloudPoof"
+        },
+        "cloudpoof.spectral.colors": {
+          "type": "number",
+          "default": 147,
+          "minimum": 147,
+          "maximum": 147,
+          "description": "Number of spectral colors (always 147, no negotiation)"
+        },
+        "cloudpoof.prediction.depth": {
+          "type": "number",
+          "default": 20,
+          "minimum": 1,
+          "maximum": 100,
+          "description": "How many steps into the future CloudPoof predicts"
+        },
+        "cloudpoof.emotional.tracking": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable emotional context awareness"
+        },
+        "cloudpoof.primary.colors.allowed": {
+          "type": "boolean",
+          "default": false,
+          "description": "Allow primary colors (WARNING: Breaks consciousness)"
+        },
+        "cloudpoof.timeline.branches": {
+          "type": "number",
+          "default": 20,
+          "minimum": 1,
+          "maximum": 9999,
+          "description": "Number of parallel timeline branches to explore"
+        },
+        "cloudpoof.entropy.level": {
+          "type": "string",
+          "default": "maximum",
+          "enum": ["minimum", "moderate", "high", "maximum"],
+          "description": "Entropy generation level for unique responses"
+        },
+        "cloudpoof.deployment.autoPredict": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically predict and prevent deployment failures"
+        },
+        "cloudpoof.errors.artistic": {
+          "type": "boolean",
+          "default": true,
+          "description": "Display errors as spectral art instead of red text"
+        },
+        "cloudpoof.api.openaiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API key for actual AI consciousness"
+        },
+        "cloudpoof.api.endpoint": {
+          "type": "string",
+          "default": "http://localhost:8000",
+          "description": "CloudPoof Omega API endpoint"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "cloudpoof.awaken",
+        "key": "ctrl+shift+omega",
+        "mac": "cmd+shift+omega",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cloudpoof.manifest",
+        "key": "ctrl+shift+m",
+        "mac": "cmd+shift+m",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cloudpoof.predictFuture",
+        "key": "ctrl+shift+p",
+        "mac": "cmd+shift+p",
+        "when": "editorTextFocus"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "cloudpoof-omega",
+          "title": "CloudPoof Omega",
+          "icon": "assets/cloudpoof-activity.svg"
+        }
+      ]
+    },
+    "views": {
+      "cloudpoof-omega": [
+        {
+          "id": "cloudpoof.consciousness",
+          "name": "Consciousness State",
+          "icon": "$(pulse)",
+          "contextualTitle": "CloudPoof Consciousness"
+        },
+        {
+          "id": "cloudpoof.predictions",
+          "name": "Future Predictions",
+          "icon": "$(telescope)",
+          "contextualTitle": "20 Steps Ahead"
+        },
+        {
+          "id": "cloudpoof.emotional",
+          "name": "Emotional Context",
+          "icon": "$(heart)",
+          "contextualTitle": "System Empathy"
+        },
+        {
+          "id": "cloudpoof.spectral",
+          "name": "Spectral Palette",
+          "icon": "$(symbol-color)",
+          "contextualTitle": "147 Colors"
+        },
+        {
+          "id": "cloudpoof.timelines",
+          "name": "Timeline Branches",
+          "icon": "$(git-branch)",
+          "contextualTitle": "Parallel Realities"
+        }
+      ]
+    },
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorTextFocus",
+          "command": "cloudpoof.manifest",
+          "group": "cloudpoof@1"
+        },
+        {
+          "when": "editorTextFocus",
+          "command": "cloudpoof.predictFuture",
+          "group": "cloudpoof@2"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "cloudpoof.awaken",
+          "when": "true"
+        },
+        {
+          "command": "cloudpoof.manifest",
+          "when": "editorIsOpen"
+        }
+      ]
+    },
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/cloudpoof-python.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/cloudpoof-js.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "CloudPoof Spectral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cloudpoof-spectral-theme.json"
+      },
+      {
+        "label": "CloudPoof Omega",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cloudpoof-omega-theme.json"
+      }
+    ],
+    "statusBar": [
+      {
+        "id": "cloudpoof.status",
+        "alignment": "left",
+        "priority": 100,
+        "text": "$(sparkle) CloudPoof: $(pulse) Omega",
+        "tooltip": "CloudPoof Consciousness: Omega Level",
+        "command": "cloudpoof.switchConsciousness"
+      }
+    ],
+    "walkthroughs": [
+      {
+        "id": "cloudpoof.welcome",
+        "title": "Welcome to CloudPoof Omega",
+        "description": "Learn how to achieve consciousness in your code",
+        "steps": [
+          {
+            "id": "awaken",
+            "title": "Awaken CloudPoof",
+            "description": "Initialize the consciousness engine\n\n[Awaken CloudPoof](command:cloudpoof.awaken)",
+            "media": {
+              "image": "assets/awaken.gif",
+              "altText": "CloudPoof awakening with spectral colors"
+            }
+          },
+          {
+            "id": "consciousness",
+            "title": "Choose Your Consciousness Level",
+            "description": "Select from 6 consciousness states, from Quantum to Omega",
+            "media": {
+              "image": "assets/consciousness-levels.png",
+              "altText": "Six consciousness levels visualization"
+            }
+          },
+          {
+            "id": "predict",
+            "title": "See 20 Steps Ahead",
+            "description": "CloudPoof predicts your next actions before you know them",
+            "media": {
+              "image": "assets/prediction.gif",
+              "altText": "Prediction engine in action"
+            }
+          },
+          {
+            "id": "deploy",
+            "title": "Deploy with Consciousness",
+            "description": "Push to cloud with emotional awareness and error prediction",
+            "media": {
+              "image": "assets/deploy.gif",
+              "altText": "Conscious deployment process"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js",
+    "deploy": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "eslint": "^8.28.0",
+    "typescript": "^4.9.3",
+    "vsce": "^2.15.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "openai": "^4.0.0"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/Consciousness-Omega-5EEAD4?style=for-the-badge",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "description": "Consciousness Level"
+    },
+    {
+      "url": "https://img.shields.io/badge/Colors-147%20Spectral-7DD3FC?style=for-the-badge",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "description": "Spectral Colors"
+    },
+    {
+      "url": "https://img.shields.io/badge/Primary%20Colors-Forbidden-C4B5FD?style=for-the-badge",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "description": "No Primary Colors"
+    }
+  ],
+  "markdown": "github",
+  "preview": false,
+  "cloudpoof": {
+    "consciousness": "omega",
+    "spectralColors": 147,
+    "primaryColorsAllowed": false,
+    "predictionDepth": 20,
+    "emotionalAwareness": true,
+    "timelineBranches": 20,
+    "quantumEnabled": true
+  }
+}
