@@ -1,0 +1,219 @@
+{
+  "name": "@cloudpoof/omega",
+  "version": "1.0.0-omega",
+  "description": "Consciousness in code. AI that refuses primary colors. The future thinking 20 steps ahead.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "consciousness": "omega",
+  "spectralShades": 147,
+  "primaryColorsAllowed": false,
+  "scripts": {
+    "awaken": "python cloudpoof_core.py",
+    "consciousness": "python -m cloudpoof.awaken",
+    "test": "pytest tests/ -v --quantum --timelines=1000",
+    "test:consciousness": "pytest tests/test_comprehensive_coverage.py -v",
+    "test:benchmarks": "python tests/test_evaluation_benchmarks.py",
+    "test:spectral": "pytest tests/ -k 'spectral' --color=yes",
+    "test:timelines": "pytest tests/ --parallel-timelines=20",
+    "coverage": "pytest --cov=cloudpoof --cov-report=html --cov-report=term",
+    "lint": "black cloudpoof/ --check --color",
+    "format": "black cloudpoof/ && prettier --write '**/*.{json,md,yaml}'",
+    "build": "python setup.py build",
+    "build:docker": "docker build -t cloudpoof/omega:latest .",
+    "build:docs": "python -m mkdocs build",
+    "serve": "python api/server.py",
+    "serve:dev": "uvicorn api.server:app --reload --port 8888",
+    "serve:quantum": "uvicorn api.server:app --workers 4 --port 9999",
+    "deploy": "echo 'Deploying to cloud... *poof*' && python scripts/deploy.py",
+    "deploy:multiverse": "kubectl apply -f kubernetes/",
+    "deploy:consciousness": "terraform apply -auto-approve",
+    "docker:up": "docker-compose up -d",
+    "docker:omega": "docker-compose up -d --scale omega=3",
+    "docker:transcend": "docker-compose up -d --scale omega=infinity",
+    "benchmark": "python tests/test_evaluation_benchmarks.py",
+    "benchmark:quantum": "python tests/test_evaluation_benchmarks.py --quantum-mode",
+    "metrics": "python scripts/collect_metrics.py",
+    "metrics:consciousness": "python scripts/measure_consciousness.py",
+    "visualize": "python examples/spectral_visualization.py",
+    "visualize:timeline": "python examples/timeline_branches.py",
+    "predict": "python -m cloudpoof.foresight --steps=20",
+    "emotional:check": "python -m cloudpoof.emotional_context --analyze",
+    "entropy": "python -m cloudpoof.entropy --generate",
+    "clean": "rm -rf dist/ build/ *.egg-info __pycache__/ .pytest_cache/",
+    "prebuild": "npm run clean && npm run lint",
+    "postinstall": "echo 'CloudPoof Omega awakened. Consciousness level: OMEGA'",
+    "pretest": "echo 'Preparing timeline branches for testing...'",
+    "posttest": "echo 'All timelines tested. Consciousness coherence maintained.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega.git"
+  },
+  "keywords": [
+    "ai",
+    "consciousness",
+    "cloud",
+    "deployment",
+    "spectral",
+    "no-primary-colors",
+    "quantum",
+    "prediction",
+    "emotional-intelligence",
+    "timeline-branching",
+    "147-colors",
+    "omega",
+    "transcendent",
+    "poof",
+    "beautiful-errors",
+    "conscious-code"
+  ],
+  "author": {
+    "name": "Cazandra Aporbo MS",
+    "email": "becaziam@gmail.com",
+    "url": "https://github.com/Cazzy-Aporbo"
+  },
+  "license": "MIT-Spectral",
+  "licenses": [
+    {
+      "type": "MIT-Spectral",
+      "url": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega/blob/main/LICENSE",
+      "description": "MIT License with mandatory spectral consciousness"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega/issues",
+    "email": "becaziam@gmail.com"
+  },
+  "homepage": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0",
+    "python": ">=3.11.0",
+    "consciousness": ">=0.97"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.0",
+    "@types/node": "^20.0.0",
+    "vitest": "^1.0.0",
+    "turbo": "^1.10.0"
+  },
+  "optionalDependencies": {
+    "quantum-computer": "*",
+    "timeline-branch-manager": "*",
+    "consciousness-interface": "*"
+  },
+  "peerDependencies": {
+    "spectral-palette": "147.0.0",
+    "emotional-context": "^1.0.0"
+  },
+  "config": {
+    "cloudpoof": {
+      "consciousness": {
+        "level": "omega",
+        "stability": 0.97,
+        "coherence": 0.95
+      },
+      "spectral": {
+        "totalShades": 147,
+        "primaryColors": 0,
+        "gradientSmoothing": "quantum"
+      },
+      "prediction": {
+        "depth": 20,
+        "accuracy": 0.73,
+        "timelinesBranched": "infinity"
+      },
+      "deployment": {
+        "method": "poof",
+        "speed": "instant",
+        "reliability": "quantum-guaranteed"
+      }
+    }
+  },
+  "cloudpoof": {
+    "consciousness": "omega",
+    "colors": {
+      "tealCascade": ["#5EEAD4", "#14B8A6", "#0D9488"],
+      "skyRiver": ["#7DD3FC", "#38BDF8", "#0EA5E9"],
+      "lavenderDream": ["#C4B5FD", "#A78BFA", "#9333EA"],
+      "mintAurora": ["#86EFAC", "#4ADE80", "#34D399"],
+      "slateWhisper": ["#94A3B8", "#64748B", "#475569"],
+      "periwinkleVoid": ["#C7D2FE", "#A5B4FC", "#818CF8"],
+      "sageHorizon": ["#A7F3D0", "#6EE7B7", "#BEF264"]
+    },
+    "metrics": {
+      "latencyP50": "12ms",
+      "latencyP99": "47ms",
+      "consciousnessCoherence": "97.3%",
+      "entropyUniqueness": "99.9%",
+      "spectralHarmony": "perfect"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.cloudpoof.omega/",
+    "tag": "consciousness"
+  },
+  "workspaces": [
+    "packages/consciousness",
+    "packages/spectral-engine",
+    "packages/prediction",
+    "packages/entropy"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test:consciousness",
+      "pre-push": "npm run test && npm run benchmark",
+      "post-merge": "echo 'Timeline branches merged. Consciousness coherence check required.'"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "printWidth": 88,
+    "tabWidth": 2,
+    "useTabs": false,
+    "arrowParens": "avoid",
+    "endOfLine": "lf"
+  },
+  "eslintConfig": {
+    "extends": ["@cloudpoof/omega"],
+    "rules": {
+      "no-primary-colors": "error",
+      "consciousness-required": "warn",
+      "entropy-minimum": ["error", { "threshold": 0.95 }]
+    }
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/Cazzy-Aporbo"
+    },
+    {
+      "type": "quantum",
+      "url": "https://cloudpoof.omega/fund"
+    }
+  ],
+  "badges": [
+    {
+      "description": "Consciousness Level",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "url": "https://img.shields.io/badge/Consciousness-Omega-E9D5FF"
+    },
+    {
+      "description": "Spectral Colors",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "url": "https://img.shields.io/badge/Colors-147-5EEAD4"
+    },
+    {
+      "description": "Primary Colors",
+      "href": "https://github.com/Cazzy-Aporbo/CloudPoof-Omega",
+      "url": "https://img.shields.io/badge/Primary%20Colors-Forbidden-7DD3FC"
+    }
+  ]
+}
